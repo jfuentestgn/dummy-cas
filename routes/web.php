@@ -14,3 +14,13 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/login', [
+    'as' => 'login',
+    'uses' => 'CasController@login'
+]);
+
+$router->post('/serviceValidate', [
+    'as' => 'ticketValidator',
+    'uses' => 'CasController@ticketValidator'
+]);

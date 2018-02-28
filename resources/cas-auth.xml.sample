@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+	<cas:authenticationSuccess>
+		<cas:user>mylogin</cas:user>
+		<cas:attributes>
+			<cas:uid>mylogin</cas:uid>
+			<cas:mail>mylogin@example.com</cas:mail>
+			<cas:nif>12345678Z</cas:nif>
+			<cas:LdapAuthenticationHandler.dn>uid=mylogin,ou=people,dc=example,dc=com</cas:LdapAuthenticationHandler.dn>
+			<cas:nomComplet>My Full Name</cas:nomComplet>
+		</cas:attributes>
+	</cas:authenticationSuccess>
+</cas:serviceResponse>
